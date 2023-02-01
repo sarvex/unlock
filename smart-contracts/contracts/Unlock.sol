@@ -32,6 +32,7 @@ import "@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol";
 import "hardlydifficult-eth/contracts/protocols/Uniswap/IUniswapOracle.sol";
 import '@uniswap/v3-periphery/contracts/interfaces/ISwapRouter.sol';
 import '@uniswap/v3-periphery/contracts/libraries/TransferHelper.sol';
+import '@unlock-protocol/contracts/dist/Unlock/IUnlockV11.sol';
 import "./utils/UnlockOwnable.sol";
 import "./utils/UnlockInitializable.sol";
 import "./interfaces/IPublicLock.sol";
@@ -117,6 +118,9 @@ contract Unlock is UnlockInitializable, UnlockOwnable {
 
   // required by Uniswap Universal Router
   address public permit2;
+
+  // used for migration on mainnet
+  address public previousUnlockAddress;
 
   // Events
   event NewLock(
@@ -766,6 +770,45 @@ contract Unlock is UnlockInitializable, UnlockOwnable {
     returns (string memory)
   {
     return globalTokenSymbol;
+  }
+
+
+  function postUpgrade() public {
+    // check if lock has been deployed here
+    bool isDeployed = locks[msg.sender].deployed;
+
+    // the check if it was deployed previously
+    if (isDeployed == false) {
+      IUnlockV11 previousUnlock = IUnlockV11(previousUnlockAddress);
+      (
+        bool deployed, 
+        uint totalSales, 
+        uint yieldedDiscountTokens
+      ) = previousUnlock.locks(msg.sender);
+
+      // notify modifier
+      isDeployed = deployed;
+
+      // record lock from old Unlock in this one
+      if (deployed) {
+          _migrateLock(
+          msg.sender, 
+          LockBalances(
+            deployed, 
+            totalSales, 
+            yieldedDiscountTokens
+          )
+        );
+      }
+    }
+  }
+
+  function setPreviousUnlockAddress(address _previousUnlockAddress) public {
+      previousUnlockAddress = _previousUnlockAddress;
+    }
+
+  function _migrateLock(address lockAddress, LockBalances memory lock) public {
+    locks[lockAddress] = lock;
   }
 
   // required to withdraw WETH
