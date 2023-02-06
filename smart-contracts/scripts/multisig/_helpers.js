@@ -72,14 +72,14 @@ const submitTxOldMultisig = async ({ safeAddress, tx, signer }) => {
   console.log(
     `Submitting ${functionName} to multisig ${safeAddress} (v: old)...`
   )
-  console.log(functionArgs)
-
+    
   const safe = new ethers.Contract(safeAddress, multisigOldABI, signer)
   const txSubmitted = await safe.submitTransaction(
     contractAddress,
     value || 0, // ETH value
     encodedFunctionCall
   )
+
 
   // submit to multisig
   const receipt = await txSubmitted.wait()
