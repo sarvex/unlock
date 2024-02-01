@@ -69,7 +69,7 @@
     "@testing-library/react": "13.4.0",
     "@testing-library/react-hooks": "8.0.1",
     "@types/file-saver": "2.0.5",
-    "@types/postmate": "1.5.2",
+    "@types/postmate": "1.5.4",
     "@types/qrcode.react": "1.0.2",
     "@types/react": "18.0.25",
     "@types/react-google-recaptcha": "2.1.5",
