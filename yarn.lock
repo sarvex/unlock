@@ -13916,7 +13916,7 @@ __metadata:
     color-scheme: 1.0.1
     cookie-parser: 1.4.6
     cors: 2.8.5
-    dayjs: 1.11.7
+    dayjs: 1.11.10
     dotenv: 16.0.3
     eslint: 8.28.0
     eslint-config-standard: 17.0.0
@@ -14228,7 +14228,7 @@ __metadata:
     axios-auth-refresh: 3.3.6
     calendar-link: 2.4.0
     csv: 6.2.6
-    dayjs: 1.11.7
+    dayjs: 1.11.10
     deep-object-diff: 1.1.9
     dotenv: 16.0.3
     eslint: 8.31.0
@@ -14384,7 +14384,7 @@ __metadata:
     babel-plugin-require-context-hook: 1.0.0
     babel-plugin-styled-components: 2.0.7
     babel-preset-react-app: 10.0.1
-    dayjs: 1.11.7
+    dayjs: 1.11.10
     dotenv: 16.0.3
     embla-carousel-autoplay: 7.0.9
     embla-carousel-react: 7.0.9
@@ -22067,7 +22067,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:1.11.7, dayjs@npm:^1.9.3":
+"dayjs@npm:1.11.10":
+  version: 1.11.10
+  resolution: "dayjs@npm:1.11.10"
+  checksum: a6b5a3813b8884f5cd557e2e6b7fa569f4c5d0c97aca9558e38534af4f2d60daafd3ff8c2000fed3435cfcec9e805bcebd99f90130c6d1c5ef524084ced588c4
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:^1.9.3":
   version: 1.11.7
   resolution: "dayjs@npm:1.11.7"
   checksum: 5003a7c1dd9ed51385beb658231c3548700b82d3548c0cfbe549d85f2d08e90e972510282b7506941452c58d32136d6362f009c77ca55381a09c704e9f177ebb
