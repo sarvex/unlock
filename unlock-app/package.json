@@ -8,7 +8,7 @@
     "@hookform/error-message": "2.0.1",
     "@hookform/resolvers": "2.9.10",
     "@radix-ui/react-avatar": "1.0.1",
-    "@rehooks/local-storage": "2.4.4",
+    "@rehooks/local-storage": "2.4.5",
     "@sentry/nextjs": "7.28.1",
     "@stripe/react-stripe-js": "1.16.1",
     "@stripe/stripe-js": "1.46.0",
