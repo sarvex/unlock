@@ -14350,7 +14350,7 @@ __metadata:
     jest: 29.4.1
     lint-staged: 13.1.0
     prettier: 2.8.3
-    react-to-print: 2.14.11
+    react-to-print: 2.14.15
     siwe: 1.1.6
     ts-jest: 29.0.3
     tsup: 6.5.0
@@ -42996,15 +42996,13 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"react-to-print@npm:2.14.11":
-  version: 2.14.11
-  resolution: "react-to-print@npm:2.14.11"
-  dependencies:
-    prop-types: ^15.8.1
+"react-to-print@npm:2.14.15":
+  version: 2.14.15
+  resolution: "react-to-print@npm:2.14.15"
   peerDependencies:
     react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: c38c17092b92dc5ad33011635892ee4cede68aba29c0691d33274e236034dd9138cc432b902d0a2ee769a783f1e412ee42f8a5155231285a38c82200ab48f035
+  checksum: 00259ab12f3bfe9eeae1424dc0d09bfd04f2c090ad98c5a7ac0052427bd3cc95fa401b46d03bd0a9e7e1ca637ae74e309969d4cff5ec81f8274e7198382e5464
   languageName: node
   linkType: hard
 
