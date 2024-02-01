@@ -14256,7 +14256,7 @@ __metadata:
     react-icons: 4.7.1
     react-jazzicon: 1.0.4
     react-jwt: 1.1.8
-    react-markdown: 8.0.5
+    react-markdown: 8.0.7
     react-test-renderer: 18.2.0
     react-use: 17.4.0
     react-use-clipboard: 1.0.9
@@ -14413,8 +14413,8 @@ __metadata:
     react-query: 3.39.3
     react-showdown: 2.3.1
     react-test-renderer: 18.2.0
-    remark: 14.0.2
-    remark-html: 15.0.1
+    remark: 14.0.3
+    remark-html: 15.0.2
     rss: 1.2.2
     showdown-highlight: 3.1.0
     styled-components: 5.3.6
@@ -42827,9 +42827,9 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"react-markdown@npm:8.0.5":
-  version: 8.0.5
-  resolution: "react-markdown@npm:8.0.5"
+"react-markdown@npm:8.0.7":
+  version: 8.0.7
+  resolution: "react-markdown@npm:8.0.7"
   dependencies:
     "@types/hast": ^2.0.0
     "@types/prop-types": ^15.0.0
@@ -42849,7 +42849,7 @@ fsevents@~2.1.1:
   peerDependencies:
     "@types/react": ">=16"
     react: ">=16"
-  checksum: 9d11b7aba16216d590e56b4744e05d2925141bfb0f5885b3d9400ccf006cd24b79ce3b3d20af8a083a01324215b58fa4c5979e44f69d54123ff1dd5dacb0dc89
+  checksum: 0f3e570975134a3382c3fe5189e04e742ae154941463bdfaab2293319da1f1585cb9b75b6f07d99f514c4d728d69cc1af3c96ab37df90003b3bcc210dd0001ba
   languageName: node
   linkType: hard
 
@@ -43564,16 +43564,16 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"remark-html@npm:15.0.1":
-  version: 15.0.1
-  resolution: "remark-html@npm:15.0.1"
+"remark-html@npm:15.0.2":
+  version: 15.0.2
+  resolution: "remark-html@npm:15.0.2"
   dependencies:
     "@types/mdast": ^3.0.0
     hast-util-sanitize: ^4.0.0
     hast-util-to-html: ^8.0.0
     mdast-util-to-hast: ^12.0.0
     unified: ^10.0.0
-  checksum: da9a7ee71b470d21d4d74eb841fd6c340396ebe3e7488fc70d5471bf25bcaf2cb0a25a5d034ead1f1ac9612df2f703705acfd16e6f6b60696f40b788abf2b174
+  checksum: 1fe1bf1fd229f5ae999626f274b9e6a972c1406533f5e78392c1994e01ec35511d0d307a927bb22a828e51007c80f12f3befcea73e9f5f01db7bed229a989d54
   languageName: node
   linkType: hard
 
@@ -43671,15 +43671,15 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"remark@npm:14.0.2":
-  version: 14.0.2
-  resolution: "remark@npm:14.0.2"
+"remark@npm:14.0.3":
+  version: 14.0.3
+  resolution: "remark@npm:14.0.3"
   dependencies:
     "@types/mdast": ^3.0.0
     remark-parse: ^10.0.0
     remark-stringify: ^10.0.0
     unified: ^10.0.0
-  checksum: a534b6c6bb8a0db7e22580c73d820af9c2468af24d434eb0d54c9b50577d609ec5383a90e81c921f334c1426494c5cf7460ae68b5027123f159bbf1ca8a5a85f
+  checksum: 36eec9668c5f5e497507fa5d396c79183265a5f7dd204a608e7f031a4f61b48f7bb5cfaec212f5614ccd1266cc4a9f8d7a59a45e95aed9876986b4c453b191be
   languageName: node
   linkType: hard
 
