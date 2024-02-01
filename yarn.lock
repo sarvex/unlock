@@ -12192,10 +12192,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/geoip-country@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@types/geoip-country@npm:4.0.0"
-  checksum: cd8af136e21f29e9b504ebf47ec5d9f717aabafee858b8f895c9936727e9ade40c6accf9df9c1005eeaa805d33d88b1ad9dcc6f19a8e0cc5791cd307dfcb7fba
+"@types/geoip-country@npm:4.0.2":
+  version: 4.0.2
+  resolution: "@types/geoip-country@npm:4.0.2"
+  checksum: bdabdea429d1fba8f93cab50a3f601ba4ddb55d24eaa00f04967e6261c6540d42104ef7b8fed314cf65f4ae466f858b8880c454beb8742abe299d2f02a035e19
   languageName: node
   linkType: hard
 
@@ -13889,7 +13889,7 @@ __metadata:
     "@sentry/tracing": 7.23.0
     "@types/cookie-parser": 1.4.3
     "@types/cors": 2.8.13
-    "@types/geoip-country": 4.0.0
+    "@types/geoip-country": 4.0.2
     "@types/isomorphic-fetch": 0.0.36
     "@types/jsonwebtoken": 9.0.1
     "@types/multer": 1.4.7
