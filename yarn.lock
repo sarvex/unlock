@@ -12744,6 +12744,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react@npm:18.2.51":
+  version: 18.2.51
+  resolution: "@types/react@npm:18.2.51"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 1ab49e51e6314cefb9a162e9ac3a15a0474c82a0737f12f3a9628ccba555ab6645d2449152e7a5fc3ff650a7139a4718715af2c5ae9bc46b0533e98036706f84
+  languageName: node
+  linkType: hard
+
 "@types/request-promise-native@npm:1.0.18":
   version: 1.0.18
   resolution: "@types/request-promise-native@npm:1.0.18"
@@ -14371,7 +14382,7 @@ __metadata:
     "@testing-library/react": 13.4.0
     "@types/next": 8.0.7
     "@types/node": 18.11.18
-    "@types/react": 18.0.25
+    "@types/react": 18.2.51
     "@types/styled-components": 5.1.26
     "@unlock-protocol/tsconfig": "workspace:./packages/tsconfig"
     "@unlock-protocol/ui": "workspace:./packages/ui"
