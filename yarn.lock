@@ -14377,7 +14377,7 @@ __metadata:
     "@unlock-protocol/ui": "workspace:./packages/ui"
     "@unlock-protocol/unlock-assets": "workspace:./packages/unlock-assets"
     "@zeit/next-source-maps": 0.0.3
-    apexcharts: 3.36.3
+    apexcharts: 3.45.2
     autoprefixer: 10.4.13
     babel-eslint: 10.1.0
     babel-loader: 9.1.0
@@ -15319,6 +15319,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@yr/monotone-cubic-spline@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@yr/monotone-cubic-spline@npm:1.0.3"
+  checksum: ebc75e4d84d5b97d1d715452088ffe3cf6b3d71943433118116a2e90f17aed654b6f726868e913a49aef28645bb8afcc28580349de1ac77ad0c7dab3d991843e
+  languageName: node
+  linkType: hard
+
 "@zeit/next-source-maps@npm:0.0.3":
   version: 0.0.3
   resolution: "@zeit/next-source-maps@npm:0.0.3"
@@ -15998,17 +16005,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"apexcharts@npm:3.36.3":
-  version: 3.36.3
-  resolution: "apexcharts@npm:3.36.3"
+"apexcharts@npm:3.45.2":
+  version: 3.45.2
+  resolution: "apexcharts@npm:3.45.2"
   dependencies:
+    "@yr/monotone-cubic-spline": ^1.0.3
     svg.draggable.js: ^2.2.2
     svg.easing.js: ^2.0.0
     svg.filter.js: ^2.0.2
     svg.pathmorphing.js: ^0.1.3
     svg.resize.js: ^1.4.3
     svg.select.js: ^3.0.1
-  checksum: 2b92f123cf3e52255d379d95411d12943c096a1575234ae90513d9dd9dd3f118fa1f08098b5acf142e1d119ac0c19a7ca2a62d3979cf7e333d361d582ec12daf
+  checksum: a7250e5c9a5d0104bbcdc0716d71a781c27c0d20f2381f0f3838d0ac152cd461f3f94c7ade92eedd56a924096d2a628c66d2f111d4ca493851b72b60ee28d836
   languageName: node
   linkType: hard
 
