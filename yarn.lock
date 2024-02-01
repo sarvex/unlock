@@ -14091,7 +14091,7 @@ __metadata:
     hardhat: 2.9.2
     hardhat-contract-sizer: 2.5.1
     hardhat-erc1820: 0.1.0
-    hardhat-gas-reporter: 1.0.9
+    hardhat-gas-reporter: 1.0.10
     hardhat-storage-layout: 0.1.7
     hardhat-tracer: 1.0.0-alpha.6
     hardlydifficult-eth: 1.1.4
@@ -28946,7 +28946,20 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"hardhat-gas-reporter@npm:1.0.9, hardhat-gas-reporter@npm:^1.0.8":
+"hardhat-gas-reporter@npm:1.0.10":
+  version: 1.0.10
+  resolution: "hardhat-gas-reporter@npm:1.0.10"
+  dependencies:
+    array-uniq: 1.0.3
+    eth-gas-reporter: ^0.2.25
+    sha1: ^1.1.1
+  peerDependencies:
+    hardhat: ^2.0.2
+  checksum: caaec13ab3fcda47b8768257e4416b5fd0e8ef3aca5369aa8195419d3d4a948cc182075333651df44215cfc629d088f5ed9f762c8c14ae5a4b4a4f2613e583d0
+  languageName: node
+  linkType: hard
+
+"hardhat-gas-reporter@npm:^1.0.8":
   version: 1.0.9
   resolution: "hardhat-gas-reporter@npm:1.0.9"
   dependencies:
