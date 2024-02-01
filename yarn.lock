@@ -12571,6 +12571,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:18.19.13":
+  version: 18.19.13
+  resolution: "@types/node@npm:18.19.13"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: 40b34bde2e868276234dd5456be6506f75eaa1da8a030b2071fdac6c64b9862ea484794bca5d78bf67d8d3d526007b03d3c57dcdf0f8a3c58678ab7e248f17ee
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^10.0.3, @types/node@npm:^10.12.18, @types/node@npm:^10.3.2":
   version: 10.17.60
   resolution: "@types/node@npm:10.17.60"
@@ -14370,7 +14379,7 @@ __metadata:
     "@radix-ui/react-avatar": 1.0.1
     "@testing-library/react": 13.4.0
     "@types/next": 8.0.7
-    "@types/node": 18.11.18
+    "@types/node": 18.19.13
     "@types/react": 18.0.25
     "@types/styled-components": 5.1.26
     "@unlock-protocol/tsconfig": "workspace:./packages/tsconfig"
@@ -41970,7 +41979,7 @@ fsevents@~2.1.1:
   resolution: "provider@workspace:provider"
   dependencies:
     "@cloudflare/workers-types": 4.20230115.0
-    "@types/node": 18.11.18
+    "@types/node": 18.19.13
     "@unlock-protocol/networks": "workspace:^"
     ethers: 5.7.2
     toucan-js: 3.1.0
@@ -49554,6 +49563,13 @@ typescript@^3.8.3:
   version: 1.13.1
   resolution: "underscore@npm:1.13.1"
   checksum: 69bb4e6dd92c387ad322dd5b105f496fa64896d92ff1eea987610920d452667a12bca0938def4c4d60acd12da62410540fd268e7ca4f2480d89324498382fcac
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
