@@ -14224,7 +14224,7 @@ __metadata:
     "@walletconnect/web3-provider": 1.8.0
     "@xstate/react": 3.0.1
     autoprefixer: 10.4.13
-    axios: 1.2.1
+    axios: 1.6.0
     axios-auth-refresh: 3.3.6
     calendar-link: 2.4.0
     csv: 6.2.6
@@ -16907,14 +16907,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:1.2.1":
-  version: 1.2.1
-  resolution: "axios@npm:1.2.1"
+"axios@npm:1.6.0":
+  version: 1.6.0
+  resolution: "axios@npm:1.6.0"
   dependencies:
     follow-redirects: ^1.15.0
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: c4dc4e119064c9aed09a3de309bedb797a139a6fb372223aafe3e0c10a7d4a14e4d3e9c9d309467fadb9d2b490b891ee3df96ef5b55716bb971910466ff9f0c5
+  checksum: c7c9f2ae9e0b9bad7d6f9a4dff030930b12ee667dedf54c3c776714f91681feb743c509ac0796ae5c01e12c4ab4a2bee74905068dd200fbc1ab86f9814578fb0
   languageName: node
   linkType: hard
 
