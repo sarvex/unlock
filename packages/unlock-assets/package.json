@@ -46,7 +46,7 @@
     "@storybook/addon-links": "6.5.16",
     "@storybook/react": "6.5.16",
     "@svgr/cli": "6.5.1",
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "7.11.0",
     "babel-loader": "9.1.0",
     "eslint": "8.33.0",
     "eslint-config-prettier": "8.6.0",
