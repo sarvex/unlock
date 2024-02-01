@@ -7708,9 +7708,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nomiclabs/hardhat-etherscan@npm:3.1.5":
-  version: 3.1.5
-  resolution: "@nomiclabs/hardhat-etherscan@npm:3.1.5"
+"@nomiclabs/hardhat-etherscan@npm:3.1.8":
+  version: 3.1.8
+  resolution: "@nomiclabs/hardhat-etherscan@npm:3.1.8"
   dependencies:
     "@ethersproject/abi": ^5.1.2
     "@ethersproject/address": ^5.0.2
@@ -7724,7 +7724,7 @@ __metadata:
     undici: ^5.14.0
   peerDependencies:
     hardhat: ^2.0.4
-  checksum: d90d7eb3f2c62d53f2609f87e633d7af1395465ecfd6322160a45cbc8bc0e71780a9c52624e23817ca251df74df064cbfe3d09a86c69133359200f0f4f30c5c8
+  checksum: 13864380d104705a54668adf2fb37a87d1147a064c1d29dbc356390e7254d5c7501b9b3af9c4ec2f9d9ff642a01417d5d35970d626fe706f5f4830820ae89ecb
   languageName: node
   linkType: hard
 
@@ -13791,7 +13791,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@unlock-protocol/contracts@workspace:packages/contracts"
   dependencies:
-    "@nomiclabs/hardhat-etherscan": 3.1.5
+    "@nomiclabs/hardhat-etherscan": 3.1.8
     "@primitivefi/hardhat-dodoc": 0.2.3
     "@unlock-protocol/hardhat-helpers": "workspace:^"
     "@unlock-protocol/networks": "workspace:^"
@@ -14056,7 +14056,7 @@ __metadata:
     "@gnosis.pm/safe-ethers-lib": 1.6.1
     "@gnosis.pm/safe-service-client": 1.3.1
     "@nomiclabs/hardhat-ethers": 2.0.6
-    "@nomiclabs/hardhat-etherscan": 3.1.5
+    "@nomiclabs/hardhat-etherscan": 3.1.8
     "@nomiclabs/hardhat-truffle5": 2.0.7
     "@nomiclabs/hardhat-waffle": 2.0.3
     "@nomiclabs/hardhat-web3": 2.0.0
