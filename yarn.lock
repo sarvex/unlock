@@ -12379,12 +12379,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsonwebtoken@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@types/jsonwebtoken@npm:9.0.1"
+"@types/jsonwebtoken@npm:9.0.5":
+  version: 9.0.5
+  resolution: "@types/jsonwebtoken@npm:9.0.5"
   dependencies:
     "@types/node": "*"
-  checksum: a7f0925e9a42ad3ae970364c63c5986d40da5c83d51d3f4e624eb0f064a380376f9e3fb3f2f837390a9ab80143f5d75fd51866da30e110f6b486a3379e1c768f
+  checksum: 07ab6fee602e5bd3fb5c6dfe4ec400769dc20f1d7fce901feecb4c3af5f5f08323b03ea55de3e49b1aa41e171a59008f6f4318738a735588c5268a63eba25337
   languageName: node
   linkType: hard
 
@@ -13891,7 +13891,7 @@ __metadata:
     "@types/cors": 2.8.13
     "@types/geoip-country": 4.0.0
     "@types/isomorphic-fetch": 0.0.36
-    "@types/jsonwebtoken": 9.0.1
+    "@types/jsonwebtoken": 9.0.5
     "@types/multer": 1.4.7
     "@types/multer-s3": 3.0.0
     "@types/nock": 10.0.3
@@ -13930,7 +13930,7 @@ __metadata:
     graphql-tag: 2.12.6
     html-template-tag: 4.0.1
     isomorphic-fetch: 3.0.0
-    jsonwebtoken: 9.0.0
+    jsonwebtoken: 9.0.2
     lodash.isequal: 4.5.0
     multer: 1.4.5-lts.1
     multer-s3: 3.0.1
@@ -33653,15 +33653,21 @@ fsevents@~2.1.1:
   languageName: node
   linkType: hard
 
-"jsonwebtoken@npm:9.0.0, jsonwebtoken@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "jsonwebtoken@npm:9.0.0"
+"jsonwebtoken@npm:9.0.2":
+  version: 9.0.2
+  resolution: "jsonwebtoken@npm:9.0.2"
   dependencies:
     jws: ^3.2.2
-    lodash: ^4.17.21
+    lodash.includes: ^4.3.0
+    lodash.isboolean: ^3.0.3
+    lodash.isinteger: ^4.0.4
+    lodash.isnumber: ^3.0.3
+    lodash.isplainobject: ^4.0.6
+    lodash.isstring: ^4.0.1
+    lodash.once: ^4.0.0
     ms: ^2.1.1
-    semver: ^7.3.8
-  checksum: b9181cecf9df99f1dc0253f91ba000a1aa4d91f5816d1608c0dba61a5623726a0bfe200b51df25de18c1a6000825d231ad7ce2788aa54fd48dcb760ad9eb9514
+    semver: ^7.5.4
+  checksum: fc739a6a8b33f1974f9772dca7f8493ca8df4cc31c5a09dcfdb7cff77447dcf22f4236fb2774ef3fe50df0abeb8e1c6f4c41eba82f500a804ab101e2fbc9d61a
   languageName: node
   linkType: hard
 
@@ -33680,6 +33686,18 @@ fsevents@~2.1.1:
     ms: ^2.1.1
     semver: ^5.6.0
   checksum: 93c9e3f23c59b758ac88ba15f4e4753b3749dfce7a6f7c40fb86663128a1e282db085eec852d4e0cbca4cefdcd3a8275ee255dbd08fcad0df26ad9f6e4cc853a
+  languageName: node
+  linkType: hard
+
+"jsonwebtoken@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "jsonwebtoken@npm:9.0.0"
+  dependencies:
+    jws: ^3.2.2
+    lodash: ^4.17.21
+    ms: ^2.1.1
+    semver: ^7.3.8
+  checksum: b9181cecf9df99f1dc0253f91ba000a1aa4d91f5816d1608c0dba61a5623726a0bfe200b51df25de18c1a6000825d231ad7ce2788aa54fd48dcb760ad9eb9514
   languageName: node
   linkType: hard
 
@@ -45086,6 +45104,17 @@ resolve@~1.20.0:
   bin:
     semver: ./bin/semver.js
   checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.5.4":
+  version: 7.5.4
+  resolution: "semver@npm:7.5.4"
+  dependencies:
+    lru-cache: ^6.0.0
+  bin:
+    semver: bin/semver.js
+  checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
   languageName: node
   linkType: hard
 
