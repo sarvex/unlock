@@ -12283,10 +12283,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/isomorphic-fetch@npm:0.0.36":
-  version: 0.0.36
-  resolution: "@types/isomorphic-fetch@npm:0.0.36"
-  checksum: 1ffaa1c97a019b1f7a682e2ae31bd4cc3f324198b422c62cece51b42d2750e0dde0c4df2320a52874d6c6019ee4b00ca2e736010d34b206a82e63ef82ef85bbe
+"@types/isomorphic-fetch@npm:0.0.39":
+  version: 0.0.39
+  resolution: "@types/isomorphic-fetch@npm:0.0.39"
+  checksum: 24d81e968d39599d179ced4b029725c964c64200a57d2fd90c7484a157bf56268f9464a09274338adb8c949b3b30dce7b5b4564c0b9b336d60dd9e88500a27bf
   languageName: node
   linkType: hard
 
@@ -13890,7 +13890,7 @@ __metadata:
     "@types/cookie-parser": 1.4.3
     "@types/cors": 2.8.13
     "@types/geoip-country": 4.0.0
-    "@types/isomorphic-fetch": 0.0.36
+    "@types/isomorphic-fetch": 0.0.39
     "@types/jsonwebtoken": 9.0.1
     "@types/multer": 1.4.7
     "@types/multer-s3": 3.0.0
