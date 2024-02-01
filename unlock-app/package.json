@@ -73,7 +73,7 @@
     "@types/qrcode.react": "1.0.2",
     "@types/react": "18.0.25",
     "@types/react-google-recaptcha": "2.1.5",
-    "@types/react-gtm-module": "2.0.1",
+    "@types/react-gtm-module": "2.0.3",
     "@unlock-protocol/tsconfig": "workspace:./packages/tsconfig",
     "@vitejs/plugin-react": "3.0.1",
     "@vitest/coverage-c8": "0.26.2",
